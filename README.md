@@ -38,7 +38,7 @@ brew update && brew upgrade --cask mauringo/tap/clipboard-assistant
 open "/Applications/Clipboard Assistant.app"
 ```
 
-Turn off **Clipboard Assistant → Automatically Check for Updates** and let Homebrew manage updates. Homebrew downloads a prebuilt app; the optional in-app updater builds source locally and takes longer. No Swift compiler is needed for Homebrew installation or updates.
+Turn off **Clipboard Assistant → Automatically Check for Updates** and let Homebrew manage updates. Homebrew downloads a prebuilt app and keeps update control in Terminal. The optional in-app updater also downloads prebuilt apps starting with v1.7.0; older versions build source locally and take longer. No Swift compiler is needed for Homebrew installation or updates.
 
 If you use a custom Homebrew app directory, reopen the app from that directory.
 
